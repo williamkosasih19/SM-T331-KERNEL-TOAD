@@ -47,7 +47,6 @@ CFLAGS_cyttsp4_debug.o 			+= $(CY_CFLAG_ADD)
 CFLAGS_cyttsp4_devtree.o 		+= $(CY_CFLAG_ADD) -DDEBUG
 CFLAGS_cyttsp4_platform.o 		+= $(CY_CFLAG_ADD) -DDEBUG
 
-CFLAGS_cyttsp4_core.o 			-= $(CY_CFLAG_REMOVE)
 CFLAGS_cyttsp4_i2c.o 			-= $(CY_CFLAG_REMOVE)
 CFLAGS_cyttsp4_spi.o 			-= $(CY_CFLAG_REMOVE)
 CFLAGS_cyttsp4_mta.o 			-= $(CY_CFLAG_REMOVE)
