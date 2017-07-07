@@ -7,6 +7,7 @@ gpu_sysfs-y :=	gpu_sysfs_main.o \
 
 # Platform specific files.
 
+CONFIG_MSM_KGSL=y
 
 # ==================================
 # Start --------- Qualcomm ---------
