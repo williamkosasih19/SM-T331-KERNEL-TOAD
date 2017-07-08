@@ -60,6 +60,7 @@ static struct msm_bus_scale_pdata bus_client_pdata = {
 };
 
 static struct clkctl_acpu_speed acpu_freq_tbl_8226_1p1[] = {
+	{ 1,  60000, PLL0,    4, 2,   CPR_CORNER_1,    0, 4 },
 	{ 1,  300000, PLL0,    4, 2,   CPR_CORNER_2,    0, 4 },
 	{ 1,  384000, ACPUPLL, 5, 2,   CPR_CORNER_2,    0, 4 },
 	{ 1,  600000, PLL0,    4, 0,   CPR_CORNER_4, 0, 4 },
@@ -67,10 +68,12 @@ static struct clkctl_acpu_speed acpu_freq_tbl_8226_1p1[] = {
 	{ 1,  998400, ACPUPLL, 5, 0,   CPR_CORNER_5,  0, 7 },
 	{ 1, 1094400, ACPUPLL, 5, 0,   CPR_CORNER_6,  0, 7 },
 	{ 0, 1190400, ACPUPLL, 5, 0,   CPR_CORNER_7,  0, 7 },
+	{ 1, 1401600, ACPUPLL, 5, 0,   CPR_CORNER_10,  0, 7 },
 	{ 0 }
 };
 
 static struct clkctl_acpu_speed acpu_freq_tbl_8226_1p2[] = {
+	{ 1,  60000, PLL0,    4, 2,   CPR_CORNER_1,    0, 4 },
 	{ 1,  300000, PLL0,    4, 2,   CPR_CORNER_2,    0, 4 },
 	{ 1,  384000, ACPUPLL, 5, 2,   CPR_CORNER_2,    0, 4 },
 	{ 1,  600000, PLL0,    4, 0,   CPR_CORNER_4, 0, 4 },
@@ -78,10 +81,12 @@ static struct clkctl_acpu_speed acpu_freq_tbl_8226_1p2[] = {
 	{ 1,  998400, ACPUPLL, 5, 0,   CPR_CORNER_5,  0, 7 },
 	{ 1, 1094400, ACPUPLL, 5, 0,   CPR_CORNER_6,  0, 7 },
 	{ 1, 1190400, ACPUPLL, 5, 0,   CPR_CORNER_7,  0, 7 },
+	{ 1, 1401600, ACPUPLL, 5, 0,   CPR_CORNER_10,  0, 7 },
 	{ 0 }
 };
 
 static struct clkctl_acpu_speed acpu_freq_tbl_8226_1p4[] = {
+	{ 1,  60000, PLL0,    4, 2,   CPR_CORNER_1,    0, 4 },
 	{ 1,  300000, PLL0,    4, 2,   CPR_CORNER_2,    0, 4 },
 	{ 1,  384000, ACPUPLL, 5, 2,   CPR_CORNER_2,    0, 4 },
 	{ 1,  600000, PLL0,    4, 0,   CPR_CORNER_4, 0, 4 },
@@ -96,6 +101,7 @@ static struct clkctl_acpu_speed acpu_freq_tbl_8226_1p4[] = {
 };
 
 static struct clkctl_acpu_speed acpu_freq_tbl_8226_1p6[] = {
+	{ 1,  60000, PLL0,    4, 2,   CPR_CORNER_1,    0, 4 },
 	{ 1,  300000, PLL0,    4, 2,   CPR_CORNER_2,    0, 4 },
 	{ 1,  384000, ACPUPLL, 5, 2,   CPR_CORNER_2,    0, 4 },
 	{ 1,  600000, PLL0,    4, 0,   CPR_CORNER_4, 0, 4 },
@@ -112,6 +118,7 @@ static struct clkctl_acpu_speed acpu_freq_tbl_8226_1p6[] = {
 };
 
 static struct clkctl_acpu_speed acpu_freq_tbl_8610[] = {
+	{ 1,  60000, PLL0,    4, 2,   CPR_CORNER_1,    0, 4 },
 	{ 1,  300000, PLL0,    4, 2,   CPR_CORNER_2,    0, 3 },
 	{ 1,  384000, ACPUPLL, 5, 2,   CPR_CORNER_2,    0, 3 },
 	{ 1,  600000, PLL0,    4, 0,   CPR_CORNER_4, 0, 4 },
